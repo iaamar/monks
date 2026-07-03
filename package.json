@@ -5,7 +5,7 @@
   "main": "ad_generator.gs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amarnagargoje/monks.git"
+    "url": "git+https://github.com/amarnagargoje/monks-creative-ad-generator"
   },
   "license": "MIT",
   "keywords": [
@@ -13,7 +13,9 @@
     "google-apps-script",
     "ad-generation",
     "prompt-engineering",
-    "creative-workflow"
+    "creative-workflow",
+    "multi-language",
+    "cultural-ai"
   ],
   "author": "Amar Nagargoje",
   "contributors": [
@@ -35,10 +37,12 @@
     "node": ">=18.0.0"
   },
   "directories": {
-    "doc": "docs"
+    "doc": "docs",
+    "lib": "scripts",
+    "test": "tests"
   },
   "bugs": {
-    "url": "https://github.com/amarnagargoje/monks/issues"
+    "url": "https://github.com/amarnagargoje/monks-creative-ad-generator/issues"
   },
-  "homepage": "https://github.com/amarnagargoje/monks#readme"
+  "homepage": "https://github.com/amarnagargoje/monks-creative-ad-generator#readme"
 }
