@@ -1,0 +1,44 @@
+{
+  "name": "monks-creative-ad-generator",
+  "version": "1.0.0",
+  "description": "Agentic AI workflow for creative ad image generation with rapid prototyping",
+  "main": "ad_generator.gs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amarnagargoje/monks.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "creative-ai",
+    "google-apps-script",
+    "ad-generation",
+    "prompt-engineering",
+    "creative-workflow"
+  ],
+  "author": "Amar Nagargoje",
+  "contributors": [
+    {
+      "name": "Amar Nagargoje",
+      "email": "amarnagargoje@example.com"
+    }
+  ],
+  "scripts": {
+    "setup": "node scripts/setup.js",
+    "test": "node scripts/test.js",
+    "deploy": "node scripts/deploy.js"
+  },
+  "devDependencies": {
+    "prettier": "3.0.0",
+    "eslint": "8.50.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "bugs": {
+    "url": "https://github.com/amarnagargoje/monks/issues"
+  },
+  "homepage": "https://github.com/amarnagargoje/monks#readme"
+}
